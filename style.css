@@ -1,0 +1,103 @@
+body { 
+    background: url(http://wallpaperheart.com/wp-content/uploads/2018/03/football-wallpapers-2018-stadium.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+}
+.image{
+  display: inline-block;
+  width: 22%;
+}
+.image button{
+  position: relative;
+top:-150px;
+}
+
+.nav-link {
+  color: red !important;
+}
+.tab
+{
+  background-color: grey;
+  opacity: 0.9;
+  height: 550px;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+
+  
+
+}
+.row{ display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+ 
+
+
+
+body {
+  margin: 0;
+overflow-Y: hidden; /*quitar el scroll*/
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  background: #222;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.preloader {
+  margin: auto;
+  
+  width: 350px;
+  height: 30px;
+  background: rgba(255,255,255,0.1);
+  
+  position: relative;
+}
+
+.preloader:before {
+  content: "";
+  position: absolute;
+  background: green;
+  width: 0;
+  height: 30px;
+  
+  animation: preloader 10s infinite;
+}
+
+.preloader p {
+  margin: 0;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cerrar {
+  transform: translateY(-100%);
+  transition: all 0.5s;
+}
+
+@keyframes preloader {
+  90% {
+      width: 100%;
+      opacity: 1;
+  }
+  100% {
+      width: 100%;
+      opacity: 0;
+  }
+}

@@ -1,0 +1,37 @@
+body { 
+    background: url(http://wallpaperheart.com/wp-content/uploads/2018/03/football-wallpapers-2018-stadium.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+}
+.image{
+  display: inline-block;
+  width: 22%;
+}
+.image button{
+  position: relative;
+top:-150px;
+}
+
+.nav-link {
+  color: red !important;
+}
+.tab
+{
+  background-color: grey;
+  opacity: 0.9;
+  height: 1850px;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+
+  
+
+}
+.row{ display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
